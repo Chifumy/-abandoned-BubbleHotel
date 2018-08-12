@@ -1,0 +1,58 @@
+.news[data-show="false"] {display: none;}
+.news > .title {
+	height: 29px;
+	background: top center repeat url('//bubblehotel.fr/Leeloo/bg/title.png');
+	display: flex;
+	align-items: center;
+	margin-top: 14px;
+}
+.news > .title > h5 {
+	line-height: 29px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'Gudea', sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.news > .title > span {
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	color: #e0e0e0;
+	position: absolute;
+	right: 20px;
+	margin-top: 5px;
+}
+.news > .content {
+	min-height: 114px;
+	background: linear-gradient(#ffffff 70%, #e8e8e8 30%);
+	margin-top: 6px;
+	padding: 16px 30px;
+	color: #2d2d2d;
+	font-family: 'Libre Franklin', sans-serif;
+}
+@media (max-width:767px){
+	.news > .title > span {
+		margin-top: 30px;
+		color: #2d2d2d9c;
+	}
+	.news > .content {
+		padding-top: 24px;
+	}
+}
+.leftBlock > .CNBlock {
+    background-color: transparent;
+    margin: 6px 0px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #ffffff;
+}
+.leftBlock > .CNBlock > .NewsLeft, .leftBlock > .CNBlock > .NewsRight {
+	padding: 3px;
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #636363;
+	transition: text-shadow 2s;
+}
+.leftBlock > .CNBlock > .NewsLeft:hover, .leftBlock > .CNBlock > .NewsRight:hover {
+	text-shadow: 0px 0px 12px #636363;
+}

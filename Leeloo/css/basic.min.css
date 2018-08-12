@@ -1,0 +1,90 @@
+/*
+	@2018 Leeloo. Tous droits rÃ©servÃ©s.
+*/
+@media (max-width: 767px) {
+    .hidden-xs {
+        display:none!important
+    }
+}
+
+@media (min-width: 767px) {
+    .show-xs {
+        display:none!important
+    }
+}
+
+body,header {
+    display: flex;
+    align-content: center
+}
+
+.container {
+    margin: 12px 0
+}
+
+body {
+    background: url(//bubblehotel.fr/Leeloo/bg/accueil.png) top center no-repeat,#000;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0
+}
+
+header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin',sans-serif;
+    margin-top: 15px
+}
+
+header>img {
+    margin-right: 150px
+}
+
+header>div>a {
+    font-variant: small-caps;
+    font-size: 12pt;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px
+}
+header>div>a[data-select="true"], header>div>a:hover, header>div>a:focus, header>div>a:visited, header>div>a:active   {
+	background-color: #242424;
+	border-radius: 16px;
+	box-shadow: 0 1px #000000;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12pt;
+}
+
+div.separator {
+    margin-top: 150px
+}
+
+header .trait {
+    background-color: rgba(0,0,0,.5);
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+footer {
+    background: #000;
+    border-top: 1px solid #353535;
+    padding-top: 30px;
+    text-align: center
+}
+
+footer p,footer p>a {
+    margin: 0;
+    padding: 4px 0 9px;
+    color: #353535;
+    font-family: Arial,sans-serif;
+    font-size: 9pt;
+    text-decoration: none
+}
